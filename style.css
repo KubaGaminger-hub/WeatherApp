@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(340deg, rgba(2,0,36,1) 0%, rgba(149,190,244,1) 0%, rgba(95,109,242,1) 76%);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+h1 {
+    position: absolute;
+    margin-top: 20px;
+}
+.flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(40, 37, 37);
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.weatherApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
