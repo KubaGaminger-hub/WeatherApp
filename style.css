@@ -49,3 +49,7 @@ h2 {
     margin-left: 10px;
     margin-top: 10px;
 }
+
+input[name=submit]:hover {
+    cursor: pointer;
+}

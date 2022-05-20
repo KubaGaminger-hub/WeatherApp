@@ -8,13 +8,16 @@ submit.addEventListener('click', () => {
     fetch(URL)
     .then(res => res.json())
     .then(data => {
+        h2.style.color = 'white'
         h2.innerText = data.address
         p.innerText = `${Math.ceil(data.currentConditions.temp)}°`
     })
     .catch(err => {
         if (city.value != "") {
+            h2.style.color = 'red'
             h2.innerText = 'Podałeś złe miasto!'
         }else {
+            h2.style.color = 'red'
             h2.innerText = 'Nie podałeś miasta!'
         }
         p.innerText = ""
